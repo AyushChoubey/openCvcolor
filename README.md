@@ -1,2 +1,1 @@
-# openCvcolor
-shirt_color_detection
+I have used OpenCV library to detect the upper body and then detect the color of it.In this code we have pre-trained upper boady classifier downloaded from github in XML file. The upperbody cascade classifier is trainedusing KNN algorithm.After that I have used the masking and morphology process to detect color(RGB).The reason to choose KNN because it works very good for classifying Image data without using Deep learning .I have made it to detect for RED, BLUE and GREEN only but can be made for any color.The problem I am facing is the accuracy,it is not so accurate but can become more accurate when train on more images.
